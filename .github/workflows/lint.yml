@@ -2,7 +2,11 @@ name: lint
 
 on: 
   pull_request:
-    branches: [onekey, next]
+    types:
+      - opened
+    branches:
+      - onekey
+      - next
   push:
     branches: [onekey, next]
 
