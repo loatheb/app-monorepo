@@ -2,8 +2,7 @@ name: lint
 
 on: 
   pull_request:
-    - onekey
-    - next
+    branches: [onekey, next]
 
 # Cancel a currently running workflow from the same PR/branch/tag
 # when a new workflow is triggered
